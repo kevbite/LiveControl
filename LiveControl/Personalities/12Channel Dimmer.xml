@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Personality xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>12 Ch Dimmer</Name>
+  <Manufacturer>AGeneric</Manufacturer>
+  <Description>A basic 12 channel dimmer</Description>
+  <Attributes>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 1</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>1</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 2</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>2</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 3</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>3</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 4</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>4</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 5</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>5</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 6</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>6</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 7</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>7</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 8</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>8</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 9</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>9</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 10</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>10</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 11</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>11</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>dim 12</Name>
+      <OnValue>255</OnValue>
+      <OffSetChannel>12</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+  </Attributes>
+</Personality>

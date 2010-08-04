@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Personality xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Test Name1</Name>
+  <Manufacturer>Test Manufacturer1</Manufacturer>
+  <Description>a Random Test</Description>
+  <Possition>
+    <PanOnValue>127</PanOnValue>
+    <TiltOnValue>127</TiltOnValue>
+    <PanChannel>1</PanChannel>
+    <TiltChannel>1</TiltChannel>
+    <BitSize>Size8</BitSize>
+  </Possition>
+  <Attributes>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>Dimmer</Name>
+      <OnValue>15</OnValue>
+      <OffSetChannel>1</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>CDimmer</Name>
+      <OnValue>15</OnValue>
+      <OffSetChannel>1</OffSetChannel>
+      <Type>Dimmer</Type>
+      <BitSize>Size8</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues>
+        <AttributePreSetValue>
+          <Name>White</Name>
+          <Value>0</Value>
+          <PictureByteArray>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAIAAAC1JZyVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEdJREFUSEvt1LEJADAMA0Fn/6HtZAR/oSK8eyE4hE93V+BuTeAq0PHArNkLiLY3c2nATDTRfDZgA6KJBgRAxKWJBgRA5K+lDYxzHJwy9LzRAAAAAElFTkSuQmCC</PictureByteArray>
+        </AttributePreSetValue>
+        <AttributePreSetValue>
+          <Name>Red</Name>
+          <Value>10</Value>
+          <PictureByteArray>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAIAAAC1JZyVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEdJREFUSEvt0rkNADAMw0B7/6H9rMBCFYO0gpCLeipyriZwEx0PFniKNQzZvwFuookGBEDEpYkGBEDEpYkGBEDEpYkGBEBkAUqXXtuj1zWHAAAAAElFTkSuQmCC</PictureByteArray>
+        </AttributePreSetValue>
+        <AttributePreSetValue>
+          <Name>Orange</Name>
+          <Value>20</Value>
+          <PictureByteArray>iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAIAAAC1JZyVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAElJREFUSEvt0rkNACAQA0Gu/zqo854WNnC0iNSyGFz9X+JsTeAmOg4s8BRrGLJ/A9xEEw0IgIhLEw0IgIhLEw0IgIhLEw0IgMgADasy1+S9xeYAAAAASUVORK5CYII=</PictureByteArray>
+        </AttributePreSetValue>
+      </PreSetValues>
+      <Name>Color 1</Name>
+      <OnValue>20</OnValue>
+      <OffSetChannel>3</OffSetChannel>
+      <Type>Color</Type>
+      <BitSize>Size16</BitSize>
+    </PersonalityAttribute>
+    <PersonalityAttribute>
+      <PreSetValues />
+      <Name>CColor 1</Name>
+      <OnValue>20</OnValue>
+      <OffSetChannel>3</OffSetChannel>
+      <Type>Color</Type>
+      <BitSize>Size16</BitSize>
+    </PersonalityAttribute>
+  </Attributes>
+</Personality>

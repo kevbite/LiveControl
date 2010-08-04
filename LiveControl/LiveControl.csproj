@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8E5B1132-1045-4CA4-B31E-00BC2AA109A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kevsoft.LiveControl</RootNamespace>
+    <AssemblyName>LiveControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>B999EEF77408AB5F2D48FA62DCA98F7A51ADBA74</ManifestCertificateThumbprint>
+    <ManifestKeyFile>LiveControl_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>D:\Uni Year 4\Project\Project CD Data\LiveControl\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DmxOut\Milford_1_1463DmxOut.cs" />
+    <Compile Include="GUIs\ComPortDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\ComPortDialog.Designer.cs">
+      <DependentUpon>ComPortDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalityClasses\AttributeBitSize.cs" />
+    <Compile Include="LightPrograms\Chase.cs" />
+    <Compile Include="DmxOutput.cs" />
+    <Compile Include="DmxOut\DasHardDmxOut.cs" />
+    <Compile Include="DmxOut\GuiDmxOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DmxOut\GuiDmxOut.Designer.cs">
+      <DependentUpon>GuiDmxOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmxOut\MEVPDmxOut.cs" />
+    <Compile Include="ShapeMovements\LineShapeMovement.cs" />
+    <Compile Include="StoredFixtureValues.cs" />
+    <Compile Include="GUIs\AttributePreSetValuePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\AttributePreSetValuePopup.Designer.cs">
+      <DependentUpon>AttributePreSetValuePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\CreatePersonalityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\CreatePersonalityForm.Designer.cs">
+      <DependentUpon>CreatePersonalityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\EditLightProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\EditLightProgramForm.Designer.cs">
+      <DependentUpon>EditLightProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\FixturePossitionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUIs\FixturePossitionControl.Designer.cs">
+      <DependentUpon>FixturePossitionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmxOut\ArtNet\ArtNet.cs" />
+    <Compile Include="Interfaces\ILightProgram.cs" />
+    <Compile Include="FixtureClasses\ShapeMovement.cs" />
+    <Compile Include="LightPrograms\Pallet.cs" />
+    <Compile Include="LightProgramList.cs" />
+    <Compile Include="FixtureClasses\FixtureAttributeList.cs" />
+    <Compile Include="PersonalitiesBank.cs" />
+    <Compile Include="FixturePatch.cs" />
+    <Compile Include="GUIs\AttributeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUIs\AttributeControl.Designer.cs">
+      <DependentUpon>AttributeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\FixtureAttributesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUIs\FixtureAttributesControl.Designer.cs">
+      <DependentUpon>FixtureAttributesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\FixtureSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\FixtureSetupForm.Designer.cs">
+      <DependentUpon>FixtureSetupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUIs\ShowSetupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUIs\ShowSetupForm.Designer.cs">
+      <DependentUpon>ShowSetupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DmxOut\ArtNetDmxOut.cs" />
+    <Compile Include="Interfaces\IDmxObserver.cs" />
+    <Compile Include="FixtureClasses\Fixture.cs" />
+    <Compile Include="FixtureClasses\FixtureAttribute.cs" />
+    <Compile Include="FixtureClasses\FixtureListViewItem.cs" />
+    <Compile Include="PersonalityClasses\Personality.cs" />
+    <Compile Include="PersonalityClasses\PersonalityListViewItem.cs" />
+    <Compile Include="PersonalityClasses\PersonalityPosition.cs" />
+    <Compile Include="PersonalityClasses\PersonallityAttribute.cs" />
+    <Compile Include="PersonalityClasses\AttributePreSetValue.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DmxOut\GuiDmxOut.resx">
+      <DependentUpon>GuiDmxOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\AttributeControl.resx">
+      <DependentUpon>AttributeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\AttributePreSetValuePopup.resx">
+      <DependentUpon>AttributePreSetValuePopup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\ComPortDialog.resx">
+      <DependentUpon>ComPortDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\CreatePersonalityForm.resx">
+      <DependentUpon>CreatePersonalityForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\EditLightProgramForm.resx">
+      <DependentUpon>EditLightProgramForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\FixtureAttributesControl.resx">
+      <DependentUpon>FixtureAttributesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\FixturePossitionControl.resx">
+      <DependentUpon>FixturePossitionControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\FixtureSetupForm.resx">
+      <DependentUpon>FixtureSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUIs\ShowSetupForm.resx">
+      <DependentUpon>ShowSetupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ShapeMovements\CircleShapeMovement.cs" />
+    <Compile Include="ShapeMovements\NoneShapeMovement.cs" />
+    <Compile Include="Show.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scanner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LiveControlWFCL\LiveControlWFCL.csproj">
+      <Project>{83997AF0-F567-42DA-99D2-7C8DCB8A4755}</Project>
+      <Name>LiveControlWFCL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Window.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\dimmer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\removeProgram.png" />
+    <Content Include="Resources\removeChaseStep.png" />
+    <Content Include="Resources\clearFixtures.png" />
+    <None Include="LiveControl_TemporaryKey.pfx" />
+    <None Include="Resources\edit.png" />
+    <Content Include="Resources\addChaseStep.png" />
+    <Content Include="Resources\clock.png" />
+    <Content Include="Resources\locateFixtures.png" />
+    <Content Include="Resources\LampOn.jpg" />
+    <Content Include="Resources\Magic 3D.png" />
+    <Content Include="Resources\pallet.png" />
+    <Content Include="Resources\programScene.png" />
+    <Content Include="Resources\programChase.png" />
+    <Content Include="Resources\stopChase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

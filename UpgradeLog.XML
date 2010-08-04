@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LiveControl">
+</Property><Property Name="Solution File" Value="C:\Users\Kevin\Documents\Visual Studio 2008\LiveControl\LiveControl.sln">
+</Property><Property Name="Date" Value="18 February 2010">
+</Property><Property Name="Time" Value="23:42">
+</Property></Properties><Event ErrorLevel="0" Project="LiveControl" Source="LiveControl\LiveControl.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LiveControl" Source="LiveControl\LiveControl.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LiveControlWFCL" Source="LiveControlWFCL\LiveControlWFCL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LiveControlWFCL" Source="LiveControlWFCL\LiveControlWFCL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LiveControl.Tests" Source="LiveControl.Tests\LiveControl.Tests.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LiveControl.Tests" Source="LiveControl.Tests\LiveControl.Tests.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LiveControl.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LiveControl.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LiveControl" Source="LiveControl\LiveControl.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="LiveControlWFCL" Source="LiveControlWFCL\LiveControlWFCL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="LiveControl.Tests" Source="LiveControl.Tests\LiveControl.Tests.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
